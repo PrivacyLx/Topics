@@ -1,4 +1,9 @@
 # Ideas for Topics
+These are just some ideias of topics we are interested on covering. So they just sit here until someone decides to pick it up. You can think about it as a bucket of ideas. Feel free to share, remix however you like and contribute if you have something interesting in mind. You can do that as a pull request or if you don't have a github account e-mail one of the organizers at francisco.core.at.protonmail.com.
+
+When the idea is getting bigger than a small description, you can create a new directory like "Topics/name-of-your-idea" and expand it as much as you would like in there, add images, presentations, etc. And then add a link from this document to your other one.
+
+----------
 
 
 ## Censorship Simulation
@@ -23,13 +28,13 @@ For many people encryption is a buzz word for security and it is some sort of ma
   * Is the technology standardized?
 
 ## Playing With google algorithms
-* Create a new identity on the web and try to reach a certain profile. Example: female, likes makeup, etc. And see the adds for that
+Create a new identity on the web and try to reach a certain profile. Example: female, likes makeup, or male that gets adds about watches, etc. And see the adds for that
 
 ## Digital Miror
 Make people see what advertising companies think they are and compare with other people. Use a script that takes pictures of the adds shown to each of us and comparte them. Maybe some will not even like that they are shared because they are so personal. And it is an oppportunity to show people how much information these companies have on you.
 
 ## QubesOS meetup
-QuebesOS is an awesome Operating System and it deserves to have people chat about it.
+QuebesOS is an awesome Operating System and it deserves to have people chat about it. So let's share your experiences with it and introduce new people to the concept of compartmentalization at the operationg system level.
 
 ## Breaking Windows Tea Party
 Let's break away from Windows. Let's install software that promotes freedom and gives us power instead. In this workshop, we shall guide people on the adventure of venturing to a new operating system. There will be chanllenges ahead, but the destination is a much better place and well worth the turbulent trip. So let's sail to that island together and help eachother with our difficulties.
