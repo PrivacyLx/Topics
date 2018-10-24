@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Anonymity Online: Tor</title>
+
+		<meta name="description" content="Anonymity Online: Tor">
+		<meta name="author" content="Vasilis Ververis">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		<!-- Added for Printing, in presentation mode enable attribution class in css/reveal.css -->
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+                    <section data-background="images/Color.svg" style="background-color:rgba(0,0,0,0.6);" data-background-size="100vh">
+                            Anonymity Online: Tor
+                            <br>
+                            <br>
+				    		<p>
+		                            <small><a href="mailto:andz@torproject.org">Vasilis Ververis (andz@torproject.org)</a></small>
+                                    <small>
+                                    <small>
+                                        GPG Fingerprint: 8FD5 CF5F 39FC 03EB B382 7470 5FBF 70B1 D126 0162
+                                        <br>
+                                        Public Key: <a href="https://pgp.mit.edu/pks/lookup?op=get&search=0x5FBF70B1D1260162">https://pgp.mit.edu/pks/lookup?op=get&search=0x5FBF70B1D1260162</a>
+                                    </small>
+                                    </small>
+                                    <br>
+		                            <small><a href="mailto:francisco.core@protonmail.com">Francisco Core (francisco.core@protonmail.com)</a></small>
+				    		</p>
+                    </section>
+                    <section data-background="images/onion-net.png" data-background-size="100vh">
+                    </section>
+                    <section data-background="images/onion-net.png" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                        The Tor project
+                        <p>
+                        <small>
+                            Mission: be the global resource for technology,
+                            advocacy, research and education in the ongoing pursuit
+                            of freedom of speech, privacy rights online, and
+                            censorship circumvention.
+                        </small>
+                        </p>
+                    </section>
+                    <section>
+                        What is Tor?
+                        <ul>
+                            <li>Online anonymity</li>
+                            <ul>
+                                <li>FL/OSS</li>
+                                <li>Open (volunteer based) network</li>
+                            </ul>
+                            <li>Community: researchers, developers, users, relay
+                                operators, [...]</li>
+                            <li>U.S. 501(c)(3) non-profit organization</li>
+                        </ul>
+                    </section>
+                    <section data-background="images/userstats-relay-country-all-2018-03-24-2018-10-22-off.png" data-background-size="100vh">
+                    </section>
+                    <section data-background="images/userstats-relay-country-all-2018-03-24-2018-10-22-off.png" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                        Estimated ~2,000,000+ Tor users (daily)
+                    </section>
+				</section>
+            <section>
+                <section>
+                    <h2>How Internet Works?</h2>
+                </section>
+                <section data-background="images/Internet_map_1024_-_transparent,_inverted-Internet_map_1024_-_transparent,_inverted.png" data-background-size="100vh" data-background-color=#ffffff>
+                    <span class="attribution"><small><small>Source: <a href="https://commons.wikimedia.org/wiki/File:Internet_map_1024_-_transparent,_inverted.png">Mapa parcial de Internet basado en la información obtenida del sitio opte.org el 15 de enero de 2005</a></small></small></span>
+                </section>
+                <section data-background="images/Internet_map_1024_-_transparent,_inverted-Internet_map_1024_-_transparent,_inverted.png" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                A gigantic network of "computers", servers and devices
+                </section>
+                <section data-background="images/internet-schema-5.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://mdn.mozillademos.org/files/8449/internet-schema-5.png">About MDN by Mozilla Contributors is licensed under CC-BY-SA 2.5</a></small></small></span>
+                </section>
+                <section data-background="images/internet-schema-5.png" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                Every PC, server, device, refrigerator,... requires a unique identifier - "IP address"
+                </section>
+                <section>
+                    <ul>
+                        <li>Internet is not the WWW (World Wide Web)</li>
+                        <li>Internet is the infrastructure</li>
+                        <li>Web is a service of this infrastructure</li>
+                    </ul>
+                </section>
+                <section data-background="images/We_know_where_you_are.jpg" data-background-size="90vh">
+                    <span class="attribution"><small><small>Source: <a href="https://commons.wikimedia.org/wiki/File:We_know_where_you_are_(71797).jpg">Rhododendrites</a></small></small></span>
+                </section>
+                <section data-background="images/We_know_where_you_are.jpg" style="background-color:rgba(0,0,0,0.8);" data-background-size="90vh">
+                    On the Internet we are sending (a lot) of private data:
+                    <br>
+                    <ul>
+                        <li>Source/destination IP address</li>
+                        <ul>
+                            <li>Geographical location</li>
+                        </ul>
+                    </ul>
+                </section>
+                <section>
+                    <ul>
+                        <li>WWW (World Wide Web):</li>
+                        <ul>
+                            <li>Web Browser</li>
+                            <li>Operating system</li>
+                            <li>Addons/Extensions</li>
+                        </ul>
+                    <ul>
+                </section>
+                <section data-background="images/1486151228.svg" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="#https://openclipart.org/detail/271912/internet-things">Eggib</a></small></small></span>
+                </section>
+                <section data-background="images/1486151228.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                    <p>
+                        Other services: e-mail, telephone, chat (IRC, IM),
+                        file sharing,...
+                    </p>
+                </section>
+            </section>
+            <section>
+                    <section>
+                        <h3>Understanding your thread model:</h3>
+                        <p>
+                        I use encryption (HTTPS, ...) my ISP cannot see my traffic!
+                        Maybe it cannot see your traffic (in cleartext), *but*
+                        it tracks:
+                        </p>
+                        <ul>
+                            <li>Websites visited</li>
+                            <li>Locations logs</li>
+                            <li>IP address logs</li>
+                            <li>..archived for x time: Data retention</li>
+                        </ul>
+                    </section>
+                    <section>
+                        VPN / Proxy Providers
+                        <img class="plain" data-src="images/1hop-proxy.png">
+                        <!-- Some commercial proxy providers -->
+                    </section>
+                    <section>
+                        VPN / Proxy Providers: (often) single point of failure
+                        <img class="plain" data-src="images/1hop-fail.png">
+                        <!-- Some commercial proxy providers -->
+                    </section>
+                    <section>
+                        VPN / Proxy Providers: (often) single point of bypass
+                        <img class="plain" data-src="images/1hop-bypass.png">
+                        <!-- Timing analysis bridges all connections through
+                            relay  ⇒ An attractive fat target -->
+                    </section>
+                    <section data-background="images/Powered_Purple.svg" data-background-size="50vh">
+                    </section>
+                    <section data-background="images/Powered_Purple.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="50vh">
+                        <h3>Anonymity: different interests for different user groups</h3>
+                    </section>
+                    <section>
+                        <h3>Anonymity: different interests for different user groups</h3>
+                        <img style="background:orange;" class="plain" data-src="images/anon-citizens.png">
+                    </section>
+                    <section>
+                        <h3>Anonymity: different interests for different user groups</h3>
+                        <img style="background:orange;" class="plain" data-src="images/anon-business.png">
+                    </section>
+                    <section>
+                        <h3>Anonymity: different interests for different user groups</h3>
+                        <img style="background:orange;"class="plain" data-src="images/anon-gov.png">
+                    </section>
+                    <section>
+                        <h3>Anonymity: different interests for different user groups</h3>
+                        <img style="background:orange;"class="plain" data-src="images/anon-activists.png">
+                    </section>
+                </section>
+             <section>
+                    <section data-background="images/Onion_Color.svg" data-background-size="50vh">
+                    </section>
+                    <section data-background="images/Onion_Color.svg" style="background-color:rgba(0,0,0,0.8);" data-background-size="50vh">
+                        <h2>How Tor works<h2>
+                    </section>
+                <section data-background="images/como-funciona-o-tor.svg" data-background-color="#ffffff" data-background-size="50vh">
+                    <span class="attribution"><small><small>Source: <a href="https://people.torproject.org/~karsten/tor-brochure/tor-brochure-pt-BR.pdf">Tor brochure</a></small></small></span>
+                </section>
+                <section data-background="images/htw1.svg" data-background-color="#ffffff" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://svn.torproject.org/svn/website/trunk/images/htw1.svg">Tor website</a></small></small></span>
+                </section>
+                <section data-background="images/htw2.svg" data-background-color="#ffffff" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://svn.torproject.org/svn/website/trunk/images/htw2.svg">Tor website</a></small></small></span>
+                </section>
+                <section data-background="images/htw3.svg" data-background-color="#ffffff" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://svn.torproject.org/svn/website/trunk/images/htw3.svg">Tor website</a></small></small></span>
+                </section>
+                <section data-background="images/bandwidth-2009-07-24-2018-10-22.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://metrics.torproject.org/bandwidth.html?start=2009-07-24&end=2018-10-22">Tor metrics</a></small></small></span>
+                </section>
+                <section data-background="images/bandwidth-flags-2009-07-24-2018-10-22.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://metrics.torproject.org/bandwidth-flags.html?start=2009-07-24&end=2018-10-22">Tor metrics</a></small></small></span>
+                </section>
+                <section>
+                    <p>Tor's safety comes from diversity</p>
+                    <ul>
+                        <li>Diversity of relays</li>
+                        <li>Diversity of users</li>
+                    </ul>
+                </section>
+                <section>
+                    <p>Transparency for Tor is key</p>
+                    <ul>
+                        <li>FL/OSS</li>
+                        <li>Public design documents and specifications</li>
+                    </ul>
+                </section>
+                <section>
+                    <p>But what about the bad people?</p>
+                    <ul>
+                        <li>(remember) the millions of daily users</li>
+                        <li>Still a two-edged sword?</li>
+                        <li>Good people need Tor much more than bad people need it</li>
+                    </ul>
+                </section>
+                <section>
+                    <p>Onion services</p>
+                    <ul>
+                        <li>Self authenticated</li>
+                        <li>End-to-end encrypted</li>
+                        <li>Built-in NAT punching</li>
+                        <li>Limit surface area</li>
+                        <li>No need to “exit” from Tor</li>
+                </section>
+                <section data-background="images/hidserv-rend-relayed-cells-2010-08-19-2018-10-22.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://metrics.torproject.org/hidserv-rend-relayed-cells.png?start=2010-08-19&end=2018-10-22">Tor metrics</a></small></small></span>
+                </section>
+                <section data-background="images/3percent-onions.png" data-background-size="100vh">
+                </section>
+                <section data-background="images/3percent-onions.png" style="background-color:rgba(0,0,0,0.8);" data-background-size="100vh">
+                    <ul>
+                        <li>About 3% of Tor's traffic has to do with onion
+                            services at all</li>
+                        <li>Onion services are still in the "neat toy" stage</li>
+                        <li>Terbium labs (and others) found ~7000 useful onion sites</li>
+                    </ul>
+                </section>
+                <section data-background="images/deepweb-iceberg.png" data-background-size="100vh">
+                </section>
+                <section data-background="images/facebook-onion.png" data-background-size="100vh">
+                </section>
+                <section data-background="images/other-onion-services.png" data-background-size="100vh" data-background-color="#808080">
+                </section>
+                <section data-background="images/securedrop.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://en.wikipedia.org/wiki/File:Screenshot_from_SecureDrop_Source_view.png">ParkerHiggins</a></small></small></span>
+                </section>
+                <section data-background="images/ricochet.png" data-background-size="100vh">
+                </section>
+                <section data-background="images/onionshare-server.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://github.com/micahflee/onionshare/blob/master/screenshots/server.png">OnionShare git repository</a></small></small></span>
+                </section>
+                <section data-background="images/onionshare-client.png" data-background-size="100vh">
+                    <span class="attribution"><small><small>Source: <a href="https://github.com/micahflee/onionshare/blob/master/screenshots/appdata-client.png">OnionShare git repository</a></small></small></span>
+                </section>
+                    <section>
+                        <h2>How can you help Tor?</h2>
+                        <ul>
+                            <li>Run a relay (or a bridge)</li>
+                            <li>Teach your friends about Tor, and privacy in general</li>
+                            <li>Help fix -- and fix -- bugs</li>
+                            <li>Work on open research problems (petsymposium.org)</li>
+                        </ul>
+                    </section>
+                <section>
+                    Protect your privacy
+                    <img class="plain" src="images/Browser_Horizontal_Color.svg"/>
+                    <small>
+                    <a href="https://www.torproject.org/download/download-easy.html">https://www.torproject.org/download/download-easy.html/</a>
+                    <small>
+                </section>
+            </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
