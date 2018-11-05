@@ -47,3 +47,25 @@ We know that in europe as well as around the world there are huge dataset from p
 
 ## Snowden Docs Investigation
 It has been some years now, but the Snowden documents still contain relevant information. We should do a working session where we analyse these documents.
+
+
+
+## Tracking the Trackers
+
+Taking a look at the marketing industry, look for catalogs and the stuff they sell. Because their websites look like they went straight out of Brave New World.
+
+
+
+## Tracking Ourselves and Each-other
+
+Peer-surveillance is when someone surveils or tracks others within the same circles. Think of parents tracking their children (look for US patent 2016/0183693 A1 Google), people tracking their health data, foursquare
+
+
+
+## Understanding the Surveillance by Looking at Patents
+
+* US patent 2016/0183693 A1 Google 
+* Facebook patent on tacking people on supermarkets
+* Look for facebook's other companies
+
+Maybe do a presentation on the most distopian patents. Maybe do a contest of the patents in a workshop where we choose the worst one (big-brother award-like)
