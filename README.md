@@ -1,10 +1,14 @@
 # Ideas for Topics
-These are just some ideias of topics we are interested on covering. So they just sit here until someone decides to pick it up. You can think about it as a bucket of ideas. Feel free to share, remix however you like and contribute if you have something interesting in mind. You can do that as a pull request or if you don't have a github account e-mail one of the organizers at francisco.core.at.protonmail.com.
+These are just some ideas of topics we are interested on covering. So they just sit here until someone decides to pick it up. You can think about it as a bucket of ideas. Feel free to share, remix however you like and contribute if you have something interesting in mind. You can do that as a pull request or if you don't have a github account e-mail one of the organizers at francisco.core.at.protonmail.com.
 
 When the idea is getting bigger than a small description, you can create a new directory like "Topics/name-of-your-idea" and expand it as much as you would like in there, add images, presentations, etc. And then add a link from this document to your other one.
 
+**Feel free to use any of these ideas on workshops of yours !**
+
 ----------
 
+## Investigating Metadata colletion by the PT Govt
+The european union passed a law that was considered later considered to be against the fundamental rights of the citizen. The law [find source]() mandated that telecom provides recorded metadata for two years. But since it was a directive, it was implemented in every country's laws and when it was conidered illegal, it was already too late. Now the law has to be abolished in every single EU country's tribunals. In Portugal the law [was apparently considered inconstitutional](https://dre.pt/home/-/dre/70300353/details/maximized). But then it seems that a [loophole](https://dre.pt/pesquisa/-/search/108052020/details/normal) allowed for the continuation of that collection and use. We should investigate a bit more on this.
 
 ## Censorship Simulation
 Create a censored environment with various levels of censorship:
@@ -20,8 +24,8 @@ The ideia is for people in understand that there are various types of censorship
 Facebook is made to be addictive and the fear of missing out is a huge psychological effect that keeps people locked into the platform. We should enable a discussion where people talk about the issues that keep them locked on the platoform and what can be done to help them leave it.
 
 
-## Demistifying Encryption
-For many people encryption is a buzz word for security and it is some sort of magic bullet that solves everything. In reality there are diferent kinds of encryption and it important for us to know how to diferentiate the. Even more than that, it is important to ask the right questions about that technology. Questions such as:
+## Demystifying Encryption
+For many people encryption is a buzz word for security and it is some sort of magic bullet that solves everything. In reality there are different kinds of encryption and it important for us to know how to differentiate the. Even more than that, it is important to ask the right questions about that technology. Questions such as:
   * Who has access to the data
   * Who controlls the keys
   * Is it open and well documented?
@@ -46,7 +50,7 @@ Gather people around the topics of surveillance and privacy on an informal encou
 We know that in europe as well as around the world there are huge dataset from people all around the world. We should do a working session to find what these are at leas so we have some notion of what is going on.
 
 ## Snowden Docs Investigation
-It has been some years now, but the Snowden documents still contain relevant information. We should do a working session where we analyse these documents.
+It has been some years now, but the Snowden documents still contain relevant information. We should do a working session where we analyze these documents.
 
 
 
@@ -69,3 +73,18 @@ Peer-surveillance is when someone surveils or tracks others within the same circ
 * Look for facebook's other companies
 
 Maybe do a presentation on the most distopian patents. Maybe do a contest of the patents in a workshop where we choose the worst one (big-brother award-like)
+
+
+
+
+
+## Insecurity Demonstrations Mini-Hackathons
+
+One typical problem with explaining to people how deep the privacy violations go is because in tech, everything is kind of invisible. The purpose of these sessions is for us to collaborate on tools that help people visualize what is going on in the background.
+
+Ideas for project:
+
+* **Simple IMSI catcher:**  https://github.com/Oros42/IMSI-catcher
+* **Pirogue MITM:**   https://github.com/Oros42/IMSI-catcher
+* **Censorship Simulation:** explained above
+
