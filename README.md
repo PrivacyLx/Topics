@@ -75,8 +75,10 @@ Peer-surveillance is when someone surveils or tracks others within the same circ
 Maybe do a presentation on the most distopian patents. Maybe do a contest of the patents in a workshop where we choose the worst one (big-brother award-like)
 
 
-
-
+## Building an IMSI catcher
+As documented here: https://github.com/Oros42/IMSI-catcher and here
+https://motherboard.vice.com/en_us/article/gy7qm9/how-i-made-imsi-catcher-cheap-amazon-github
+to understand the capabilities of such devices and doing so in a controled environment to make sure that no-one's privacy is violated and within the limits of the law.
 
 ## Insecurity Demonstrations Mini-Hackathons
 
