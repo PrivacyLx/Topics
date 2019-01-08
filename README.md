@@ -1,6 +1,9 @@
-# <center> Ideas Box</center>
-*<center> Take one, leave one</center>*
 
+<p align="center">
+  <b>💡Ideas Box 📦</b>
+    <br>
+  <b>Take one, leave one</b>
+</p>
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 These are just some ideas of topics we are interested on covering. So they just sit here until someone decides to pick it up. You can think about it as a bucket of ideas. Feel free to share, remix however you like and contribute if you have something interesting in mind. You can do that as a pull request or if you don't have a github account e-mail one of the organizers at francisco.core.at.protonmail.com.
