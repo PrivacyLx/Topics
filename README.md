@@ -2,11 +2,13 @@
 
 ---
 
-These are just some ideas of topics we are interested on covering. So they just sit here until someone decides to pick it up. You can think about it as a bucket of ideas. Feel free to share, remix however you like and contribute if you have something interesting in mind. You can do that as a pull request or if you don't have a github account e-mail one of the organizers at francisco.core.at.protonmail.com.
+These are just some ideas **for privacy workshops/talks** that might be interesting to cover.
+
+They just sit here until someone decides to pick it up. Feel free to share, remix however you like and contribute back if you have something interesting in mind. You can do that as a pull request or if you don't have a github account, e-mail one of the organizers at francisco.core.at.protonmail.com.
 
 When the idea is getting bigger than a small description, you can create a new directory like "Topics/name-of-your-idea" and expand it as much as you would like in there, add images, presentations, etc. And then add a link from this document to your other one.
 
-**Feel free to use any of these ideas on workshops of yours !**
+<p align="center"><strong>Feel free to use any of these ideas on workshops of yours !</strong></p>
 
 ----------
 
@@ -43,7 +45,7 @@ The european union passed a law that was considered later considered to be again
 
 
 
-## Demystifying Encryption     🔑🔒 
+## Demystifying Encryption 🔑🔒 
 
 For many people encryption is a buzz word for security and it is some sort of magic bullet that solves everything. In reality there are different kinds of encryption and it important for us to know how to differentiate the. Even more than that, it is important to ask the right questions about that technology. Questions such as:
   * Who has access to the data
