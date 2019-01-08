@@ -1,8 +1,6 @@
-<p align="center">
-  <h1>💡Ideas Box 📦</h1>
-  <br>
-  <b>Take one, leave one</b>
-</p>
+<h1 align="center">💡Ideas Box 📦</h1><p align="center">Take one, leave one</p>
+
+---
 
 These are just some ideas of topics we are interested on covering. So they just sit here until someone decides to pick it up. You can think about it as a bucket of ideas. Feel free to share, remix however you like and contribute if you have something interesting in mind. You can do that as a pull request or if you don't have a github account e-mail one of the organizers at francisco.core.at.protonmail.com.
 
@@ -11,12 +9,6 @@ When the idea is getting bigger than a small description, you can create a new d
 **Feel free to use any of these ideas on workshops of yours !**
 
 ----------
-
-
-
-## Investigating Metadata collection by the PT Govt
-
-The european union passed a law that was considered later considered to be against the fundamental rights of the citizen. The law [find source]() mandated that telecom provides recorded metadata for two years. But since it was a directive, it was implemented in every country's laws and when it was conidered illegal, it was already too late. Now the law has to be abolished in every single EU country's tribunals. In Portugal the law [was apparently considered inconstitutional](https://dre.pt/home/-/dre/70300353/details/maximized). But then it seems that a [loophole](https://dre.pt/pesquisa/-/search/108052020/details/normal) allowed for the continuation of that collection and use. We should investigate a bit more on this.
 
 
 
@@ -45,7 +37,13 @@ Facebook is made to be addictive and the fear of missing out is a huge psycholog
 
 
 
-## Demystifying Encryption
+## Investigating Metadata collection by the PT Govt
+
+The european union passed a law that was considered later considered to be against the fundamental rights of the citizen. The law [find source]() mandated that telecom provides recorded metadata for two years. But since it was a directive, it was implemented in every country's laws and when it was conidered illegal, it was already too late. Now the law has to be abolished in every single EU country's tribunals. In Portugal the law [was apparently considered inconstitutional](https://dre.pt/home/-/dre/70300353/details/maximized). But then it seems that a [loophole](https://dre.pt/pesquisa/-/search/108052020/details/normal) allowed for the continuation of that collection and use. We should investigate a bit more on this.
+
+
+
+## Demystifying Encryption     🔑🔒 
 
 For many people encryption is a buzz word for security and it is some sort of magic bullet that solves everything. In reality there are different kinds of encryption and it important for us to know how to differentiate the. Even more than that, it is important to ask the right questions about that technology. Questions such as:
   * Who has access to the data
