@@ -12,6 +12,8 @@ When the idea is getting bigger than a small description, you can create a new d
 
 -----
 
+<br>
+
 ## Censorship Simulation
 
 event format: exhibition* 
@@ -23,8 +25,8 @@ Create a censored environment with various levels of censorship:
   * Deep Packet Inspection - obsfproxy
 
 The ideia is for people in understand that there are various types of censorship and know how to get around them. It would also be valuable to explain what kinds of censorship are in use in particular countries.
-<br>
 
+<br>
 
 ## Censorship on Europe
 *event format: talk* 
@@ -33,6 +35,7 @@ Explain to people the kinds of censorship.
 
 
 <br>
+
 ## Android Forensics Study Group
 *event format: working session*
 
@@ -44,6 +47,7 @@ These are questions which have been explored in the [AnarchoTechNYC](https://git
 
 
 <br>
+
 ## Digital Fight Training
 *event format: workshop*
 
@@ -54,6 +58,7 @@ Take a look at the wiki entry from [AnarchoTechNYC](https://github.com/AnarchoTe
 
 
 <br>
+
 ## Facebook Rehabilitation Group
 *event format: discussion* 
 
@@ -63,6 +68,7 @@ Facebook is made to be addictive and the fear of missing out is a huge psycholog
 
 
 <br>
+
 ## Investigating Metadata collection by the PT Govt
 *event format: working session* 
 
@@ -70,6 +76,7 @@ The european union passed a law that was considered later considered to be again
 
 
 <br>
+
 ## Demystifying Encryption 🔑🔒 
 *event format: workshop*
 
@@ -84,6 +91,7 @@ Note: Talk about Metadata too in this event
 Exploing what metadata is.
 
 <br>
+
 ## Introduction to steganography
 *event format: workshop*
 
@@ -92,6 +100,7 @@ https://incoherency.co.uk/blog/stories/chess-steg.html
 
 
 <br>
+
 ## Playing with algorithms
 *event format: workshop* 
 
@@ -102,6 +111,7 @@ do the same with amazon and facebook.
 some work has already been done in [facebook.tracking.exposed](https://facebook.tracking.exposed)
 
 <br>
+
 ## we need to talk about China...
 *event format: talk* 
 China is evolving in a fast pace to becoming the first digital dictatorship.
@@ -111,7 +121,9 @@ We should do a presentation.
 * [Attendance face recognition Access control](https://www.youtube.com/watch?v=j078M9nbu88)
 * [Mobile Attendance App with Face Recognition](https://www.youtube.com/watch?v=-kiNJVcRiQk)
 [Face Recognition system using in students Identification](https://www.youtube.com/watch?v=Sv8WPME-abw)
+
 <br>
+
 ## Digital Mirror
 *event format: workshop* 
 Make people see what advertising companies think they are and compare with other people. Use a script that takes pictures of the adds shown to each of us and compare them. Maybe some will not even like that they are shared because they are so personal. And it is an opportunity to show people how much information these companies have on you.
@@ -120,12 +132,14 @@ Make people see what advertising companies think they are and compare with other
 
 
 <br>
+
 ## QubesOS meetup
 *event format: workshop/gathering* 
 
 QuebesOS is an awesome Operating System and it deserves to have people chat about it. So let's share your experiences with it and introduce new people to the concept of compartmentalization at the operationg system level.
 
 
+<br>
 
 ## Breaking Windows Tea Party
 *event format: workshop* 
@@ -134,6 +148,7 @@ Let's break away from Windows. Let's install software that promotes freedom and 
 
 
 <br>
+
 ## Monthly Privacy Cafe / Cryptoparty / SecurityTea
 *event format: workshop* 
 
@@ -146,7 +161,9 @@ Let's break away from Windows. Let's install software that promotes freedom and 
 **[SecuriTea](https://www.meetup.com/New-York-Cryptoparty-Network/events/vnqqmqyzdbwb/)** is the same but from the cypurr collective
 
 > This social event from the CyPurr Collective hopes to provide a comfortable space to discuss these anxieties as well as current events in the digital world. Let's build up our digital-agency and form a critical understand the tech encroaching on our lives. All while enjoying delicious tea and snacks, of course. https://cypurr.nyc
+
 <br>
+
 ## Wifi Tracking
 
 Do you see those "free" wifi hotspots everywhere and sometimes there is more than one (to give you better internet) ? Well, they also see you. A possible idea for a talk/workshop would be talking about these devices and give concrete examples. Maybe do a road tour and play around with these device.
@@ -161,6 +178,7 @@ More examples:
 
 
 <br>
+
 ## Electricity Smart Meters
 
 Electricity smart meters are being installed all around us. They tell all about what is going on in our house:
@@ -180,12 +198,10 @@ That information can and will be abused:
 
 [Here](https://youtube.com/watch?v=TJ8Wr7dWEvY) is a video about it and [here](https://forum.zwame.pt/threads/contadores-inteligentes-edp-falta-de-privacidade.958652/page-9) (Portuguese) a discussion thread on the topic.
 
-These work like wiretapping devices:
-
-* 
-
+These work like wiretapping devices
 
 <br>
+
 ## Investigating Surveillance
 *event format: working session*
 
@@ -203,12 +219,14 @@ Useful material:
 
 
 <br>
+
 ## Investigating Large Databases
 *event format: working session*
 
 We know that in europe as well as around the world there are huge dataset from people all around the world. We should do a working session to find what these are at leas so we have some notion of what is going on.
 
 <br>
+
 ## Tracking the Trackers
 *event format: working session*
 
@@ -219,6 +237,7 @@ https://trackography.org/
 https://myshadow.org/resources (find the videos on databrokers, metadata)
 
 <br>
+
 ## Documentary Session
 *event format: film projection*
 
@@ -226,12 +245,14 @@ Citizenfour, article12, Nothing to Hide, Information: what are they looking at, 
 
 
 <br>
+
 ## Is the notion of privacy culture-dependant?
 *event format: workshop*
 
 Get some inspiration here [Youtube | Yao Li - Cross-cultural Privacy Prediction](https://www.youtube.com/watch?v=_28Q-8HSOlM)
 
 <br>
+
 ## New Privacy Threats
 *event format: workshop*
 
@@ -246,13 +267,16 @@ Get some inspiration here [Youtube | Yao Li - Cross-cultural Privacy Prediction]
 
 
 <br>
+
 ## Tracking Ourselves and Each-other
 *event format: talk*
 
 Peer-surveillance is when someone surveils or tracks others within the same circles. Think of parents tracking their children (look for US patent 2016/0183693 A1 Google), people tracking their health data, foursquare.
 
 * https://www.marketwatch.com/story/extreme-baby-monitors-that-claim-to-track-your-childs-heartbeat-breathing-and-every-movement-2019-01-14?siteid=rss&rss=1
+
 <br>
+
 ## Understanding the Surveillance by Looking at Patents
 *event format: talk/working session*
 * US patent 2016/0183693 A1 Google 
@@ -277,7 +301,9 @@ Where to find more patents:
 * [Facebook pattents weekly](https://stks.freshpatents.com/Facebook-Inc-nm1.php)
 * [google patents](https://stks.freshpatents.com/Google-Inc-nm1.php)
 * [What 7 Creepy Patents Reveal About Facebook](https://web.archive.org/web/20180625080017/https://www.nytimes.com/interactive/2018/06/21/opinion/sunday/facebook-patents-privacy.html)
+
 <br>
+
 ## Google Search Manipulation
 *event format: workshop*
 
@@ -285,6 +311,7 @@ Show people how google manipulates search results and use that to motivate quest
 
 
 <br>
+
 ## Google tracks us even in airplane mode
 *event format: workshop*
 
@@ -292,6 +319,7 @@ Do a workshop where we MITM to test this ourselves https://www.youtube.com/watch
 
 
 <br>
+
 ## 2FA Workshop
 *event format: workshop*
 
@@ -302,18 +330,23 @@ Harware devices are better
 
 
 <br>
+
 ## Mobile phones insecurity
 *event format: workshop/talk*
 
 Phones are very old technology and with old stuff comes insecurity. Simply because that was not a concert at its inception. Meanwhile, we keep using them, but that fragility can use used against use. We could explore some topics on this insecurity.
+
 <br>
+
 ##### IMSI Catchers
 *event format: workshop*
 
 As documented here: https://github.com/Oros42/IMSI-catcher and here
 https://motherboard.vice.com/en_us/article/gy7qm9/how-i-made-imsi-catcher-cheap-amazon-github
 to understand the capabilities of such devices and doing so in a controled environment to make sure that no-one's privacy is violated and within the limits of the law.
+
 <br>
+
 ##### Location Tracking by communication operators
 *event format: talk*
 
@@ -322,6 +355,7 @@ In many EU countries there is a metadata law that requires telecom companies to 
 
 
 <br>
+
 ## Creating good passwords
 *event format: talk*
 
@@ -330,6 +364,7 @@ A workshop was made on this topics. We will publish the resourced produced short
 
 
 <br>
+
 ## Compartmentalization
 *event format: talk*
 
@@ -339,6 +374,7 @@ Practical measures like using "firefox multi-account containers", creating accou
 A presentation by [privacylx](https://github.com/francisco-core/presentation-compartmentalization) was made on this topic and the slides are avaiable on [github](https://github.com/francisco-core/presentation-compartmentalization).
 
 <br>
+
 ## Insecurity Demonstrations Mini-Hackathons
 *event format: workshop/hackathon*
 
@@ -352,6 +388,7 @@ Ideas for project:
 
 
 <br>
+
 ## Talking about IoT
 *event format: talk*
 
@@ -370,6 +407,7 @@ Some links related to Iot invading people's privacy:
 * https://medium.com/swlh/alexa-play-some-music-isnt-the-only-time-amazon-is-listening-to-you-a556df19613f
 
 <br>
+
 ## Privacy, Creativity and  the Chilling Effects
 *event format: talk*
 
@@ -384,12 +422,14 @@ Stasi knew about this. Maybe we should also cover this.
 Also talk about how this affect and individual's creativity. It might be important to talk about the [social cooling](https://www.socialcooling.com/)
 
 <br>
+
 ## Introduction to Email encryption
 *event format: workshop*
 
 Protonmail and other modern email webapps has a nice interface for doing email encryption. We could teach people through there or maybe also do it through thunderbird.
 
 <br>
+
 ## Onion Services Introduction
 *event format: workshop*
 
@@ -405,12 +445,14 @@ There are other advantages that can be covered too:
 
 
 <br>
+
 ## Cooperate With Artists to create Awareness
 *event format: ?*
 Invite artists to brainstorm on ideas to raise awareness on privacy issues and also inform them.
 
 
 <br>
+
 ## Using Facebook to get people out of there
 *event format: online activity*
 
@@ -418,6 +460,7 @@ Invite artists to brainstorm on ideas to raise awareness on privacy issues and a
 * create facebook suicide parties / use sth like http://suicidemachine.org/
 
 <br>
+
 ## How to delete facebook
 *event format: workshop*
 
@@ -425,6 +468,7 @@ Teach people how to safely backup a facebook account. Maybe [pollute it a bit be
 
 
 <br>
+
 ## Facebook's Censorship
 *event format: talk*
 
@@ -443,6 +487,7 @@ And maybe find other examples.
 
 
 <br>
+
 ## CryptoBar
 *event format: bar*
 
@@ -454,6 +499,7 @@ When you make a cocktail there is not a single recepy that is good. Infomrations
 
 
 <br>
+
 ## Lineage Install party
 *event format: workshop*
 
@@ -468,6 +514,7 @@ When you make a cocktail there is not a single recepy that is good. Infomrations
 * Prepare a debricking guide to follow in case something goes wrong
 
 <br>
+
 ## Privacy Underground
 *event format: workshop/game*
 
@@ -478,6 +525,7 @@ A similar concept seems to be ["Secret Dining"](https://www.meetup.com/Secret-Di
 There could be a gamification aspect where we would disclose the location in an "encrypted manner" and only those who would decipher the message would be able to reach the destination. And maybe that could be like a short treasure hunt (30mins) to reach the dining place. That might create a good climate within the group as people all feel accomplished and that can be used to kick-start the dinner.
 
 
+<br>
 
 ---------------------------------------------------------------------------------------------------------------
 
