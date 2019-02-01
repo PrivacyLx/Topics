@@ -16,8 +16,8 @@ When the idea is getting bigger than a small description, you can create a new d
 
 ## Censorship Simulation
 
-event format: exhibition* 
-"""
+*event format: exhibition* 
+
 Create a censored environment with various levels of censorship:
   * DNS censorship - people will have to change the DNS
   * IP Blocking    - use tor or some sort of VPN
