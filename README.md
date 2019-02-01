@@ -10,6 +10,8 @@ When the idea is getting bigger than a small description, you can create a new d
 
 <p align="center"><strong>Feel free to use any of these ideas on workshops of yours !</strong></p>
 
+-----
+
 ## Censorship Simulation
 *event format: exhibition* 
 
