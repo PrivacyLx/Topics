@@ -55,8 +55,6 @@ These are digital privacy and security workshops, but from a bit more technical 
 
 Take a look at the wiki entry from [AnarchoTechNYC](https://github.com/AnarchoTechNYC/meta/wiki/Digital-fight-training).
 
-
-
 <br>
 
 ## Facebook Rehabilitation Group
@@ -74,6 +72,29 @@ Facebook is made to be addictive and the fear of missing out is a huge psycholog
 
 The european union passed a law that was considered later considered to be against the fundamental rights of the citizen. The law [find source]() mandated that telecom provides recorded metadata for two years. But since it was a directive, it was implemented in every country's laws and when it was conidered illegal, it was already too late. Now the law has to be abolished in every single EU country's tribunals. In Portugal the law [was apparently considered inconstitutional](https://dre.pt/home/-/dre/70300353/details/maximized). But then it seems that a [loophole](https://dre.pt/pesquisa/-/search/108052020/details/normal) allowed for the continuation of that collection and use. We should investigate a bit more on this.
 
+
+<br>
+
+## What data companies have on me? - a dive into data exportability
+*event format: workshop*
+
+In europe, with the GDPR, (an possibly in other places - due to the brussels effect) people have the right to ask for the data stored about them such that they can move to another service. Some services
+had already allowed people to take their information, but other only how implemented it. The idea is
+to show people what kind of data they have uploaded onto these platform.
+
+Here are some links to export data:
+* [Amazon](https://www.amazon.com/gp/help/customer/display.html?nodeId=201983330)
+* [Alexa Recordings](https://www.amazon.com/gp/help/customer/display.html?nodeId=201602040=)
+* [Apple](https://privacy.apple.com/account)
+* [Facebook](https://www.facebook.com/help/1701730696756992)
+* [Google](https://myaccount.google.com/privacy#takeout)
+* [Instagram](https://www.instagram.com/download/request/)
+* [LinkedIn](https://www.linkedin.com/psettings/member-data)
+* [Reddit](https://www.reddithelp.com/en/categories/using-reddit/your-reddit-account/accessing-your-reddit-data)
+* [Snapchat](https://accounts.snapchat.com/accounts/downloadmydata)
+* [Tinder](https://account.gotinder.com/data)
+* [Twitter](https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive)
+Links were originally compiled by Michael Bazzel in his podcast [Intel Techniques](https://inteltechniques.com/blog/2019/02/22/the-privacy-security-osint-show-episode-112/)
 
 <br>
 
@@ -428,6 +449,7 @@ Also talk about how this affect and individual's creativity. It might be importa
 
 Protonmail and other modern email webapps has a nice interface for doing email encryption. We could teach people through there or maybe also do it through thunderbird.
 
+**WARNING:** Warn people that protonmail may reveal a person's language if they use iOS, for example. The replied message contains the translated string of "from" and the date.
 <br>
 
 ## Onion Services Introduction
@@ -443,6 +465,7 @@ There are other advantages that can be covered too:
 * making sure people use tor to access it
 * authenticated onion services to do access controll
 
+**security considerations:** [check out riseup's wiki](https://riseup.net/en/security/network-security/tor/onionservices-best-practices)
 
 <br>
 
