@@ -469,10 +469,21 @@ There are other advantages that can be covered too:
 
 <br>
 
+## Should we be using chrome?
+
+*event format: workshop/working session*
+
+Explore together with others how privacy invasive chrome really is. The base for this session would the [chrome privacy whitepaper](https://www.google.com/intl/en/chrome/privacy/whitepaper.html), which is a document that details all the surveillance that chrome does (they must call it a "privacy paper" ironically).
+
+At the end of 2018, google (the company that develops chrome) [silently pushed an update](https://mashable.com/article/google-chrome-69-forced-login/?europe=true) that automatically login in to chrome any user who had logged into a google account without consent or notification. We aready knew that having a company like google as owner of the browser we use could be a bad idea. I guess we just needed proof that it could lead to more privacy invasions.
+
+But many more privacy invasions happen in chrome and we're not even aware of them. This will serve as an eye opener to what google really is seeking - our souls ;)
+
+<br>
+
 ## Cooperate With Artists to create Awareness
 *event format: ?*
 Invite artists to brainstorm on ideas to raise awareness on privacy issues and also inform them.
-
 
 <br>
 
